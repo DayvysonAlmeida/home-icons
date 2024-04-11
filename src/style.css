@@ -62,3 +62,16 @@
     transition-delay: 0.5s, 1s, 1.5s;
   }
   
+  .menu.active a::before {
+    width: 50px;
+    height: 50px;
+    background: #161616;
+    border: 2px solid var(--clr);
+    transform: rotate(calc(0 * var(--i)));
+    transition: transform 0.5s, height 0.5s, width 0.5s;
+    transition-delay: 0.5s, 1.5s, 1.5s;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 5px var(--clr));
+    rotate: 135deg;
+  }
+  
