@@ -75,3 +75,9 @@
     rotate: 135deg;
   }
   
+  .menu.active li:hover a::before {
+    background: var(--clr);
+  }
+  .menu.active li:hover a ion-icon {
+    color: #161616;
+  }
