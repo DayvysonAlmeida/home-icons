@@ -46,3 +46,6 @@
     filter: drop-shadow(0 0 2px var(--clr));
   }
   
+  .menu.active a {
+    color: var(--clr);
+  }
