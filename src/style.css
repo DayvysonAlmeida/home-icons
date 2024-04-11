@@ -97,3 +97,6 @@
     transition: 1.5s;
   }
   
+  .menu.active .menuToggle {
+    transform: rotate(315deg);
+  }
