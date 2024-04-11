@@ -9,4 +9,21 @@
     height: 100vh;
     background: #161616;
   }
-   
+  .menu {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu li {
+    position: absolute;
+    left: 0;
+    list-style: none;
+    transform: rotate(0deg) translateX(100px);
+    transform-origin: 130px;
+    transition: 0.5s;
+    transition-delay: calc(0.1s * var(--i));
+  }
+  
