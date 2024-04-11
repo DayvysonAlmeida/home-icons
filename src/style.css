@@ -30,3 +30,19 @@
     transform: rotate(calc(360deg / 8 * var(--i)));
   }
   
+  .menu a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 50%;
+    transform: rotate(calc(360deg / -8 * var(--i)));
+    transition: 1s;
+    color: transparent;
+    transition-delay: 0.5s;
+    filter: drop-shadow(0 0 2px var(--clr));
+  }
+  
