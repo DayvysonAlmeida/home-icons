@@ -49,3 +49,16 @@
   .menu.active a {
     color: var(--clr);
   }
+
+  .menu a::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    border-radius: 2px;
+    background: var(--clr);
+    transform: rotate(calc(90deg * var(--i))) translate(0, 25px);
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+    transition-delay: 0.5s, 1s, 1.5s;
+  }
+  
