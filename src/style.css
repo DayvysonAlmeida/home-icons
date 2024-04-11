@@ -81,3 +81,19 @@
   .menu.active li:hover a ion-icon {
     color: #161616;
   }
+
+  .menuToggle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 32px;
+    transition: 1.5s;
+  }
+  
